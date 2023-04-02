@@ -22,14 +22,15 @@ The experiment:
 The experiment consists of the following steps:
 
 1. Train the base KerasNet network on the CIFAR-10 [^2] dataset for 100 epochs
-   using the standard training procedure and SGD. 3 variants of the network:
-   are trained: with ReLU [^3], SiLU [^4] and Sigmoid [^5] activation functions.
+   using the standard training procedure and RMSprop. 4 variants of the network:
+   are trained: with ReLU [^3], SiLU [^4], Tanh and Sigmoid [^5] activation
+   functions.
 2. Save the pre-trained network.
 3. Evaluate performance of the base pre-trained network on the test set of 
    CIFAR-10.
 4. Load the base pre-trained network and replace all activation functions with
-   the corresponding adaptive alternatives (ReLU, SiLU -> AHAF [^6]; Sigmoid ->
-   F-Neuron Activation [^7]).
+   the corresponding adaptive alternatives (ReLU, SiLU -> AHAF [^6]; Sigmoid,
+   Tanh -> F-Neuron Activation [^7]).
 5. Evaluate performance of the base derived network on the test set of 
    CIFAR-10.
 6. Fine-tune the adaptive activation functions on the CIFAR-10 dataset.
