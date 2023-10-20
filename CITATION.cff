@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: LEAF - Reference Implementation in PyTorch
+title: Using Adaptive Activation Functions in Pre-Trained Artificial Neural Network Models - Reference Implementation
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -8,13 +8,13 @@ authors:
   - family-names: Kostiuk
     given-names: Serhii
     orcid: 'https://orcid.org/0000-0003-4196-2524'
-repository-code: 'https://github.com/s-kostyuk/leaf-aaf'
+repository-code: 'https://github.com/s-kostyuk/af_replacement'
 license: MIT
-commit: 4df530ad1033481206278d2444547783e399bbc7
-doi: "10.5281/zenodo.8132251"
-date-released: '2023-07-10'
+commit: 18cd23958fbb07f5c9addc9cf7409d2c0ffaab2d
+doi: "10.5281/zenodo.8296386"
+date-released: '2023-09-29'
 preferred-citation:
-  type: article
+  type: conference-paper
   authors:
   - family-names: "Bodyanskiy"
     given-names: "Yevgeniy"
@@ -22,14 +22,14 @@ preferred-citation:
   - family-names: "Kostiuk"
     given-names: "Serhii"
     orcid: "https://orcid.org/0000-0003-4196-2524"
-  doi: "10.47839/ijc.22.3.3225"
-  journal: "International Journal of Computing"
-  month: 10
-  start: 311 # First page number
-  end: 318 # Last page number
-  title: "Learnable Extended Activation Function for Deep Neural Networks"
-  publisher:
-    name: "Research Institute of Intelligent Computer Systems"
-  issue: 3
-  volume: 22
+  title: "Using Adaptive Activation Functions in Pre-Trained Artificial Neural Network Models"
+  collection-title: "Proceedings of the 11th International Scientific and Practical Conference “Information Control Systems & Technologies” (ICST2023)"
   year: 2023
+  volume: 3513
+  conference:
+    name: "CEUR Workshop Proceedings"
+  url: "https://ceur-ws.org/Vol-3513/paper08.pdf"
+  start: 91 # First page number
+  end: 105 # Last page number
+  publisher:
+    name: "CEUR-WS.org"
